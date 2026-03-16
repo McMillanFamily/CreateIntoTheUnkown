@@ -8,8 +8,8 @@
 		"McMillanfamily"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.youtube.com/@McMillanFamily",
+		"sources": "https://github.com/McMillanFamily/CreateIntoTheUnkown"
 	},
 	"license": "MIT",
 	"icon": "assets/createintotheunknown/icon.png",
@@ -17,6 +17,10 @@
 	"entrypoints": {
 		"main": [
 			"net.mcmillanfamily.citu.CreateIntoTheUnknown"
+		],
+
+		"client": [
+			"net.mcmillanfamily.citu.CreateIntoTheUnknownClient"
 		],
 		"fabric-datagen": [
 			"net.mcmillanfamily.citu.CreateIntoTheUnknownDataGenerator"
