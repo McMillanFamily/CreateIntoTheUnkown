@@ -2,6 +2,7 @@ package net.mcmillanfamily.citu;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mcmillanfamily.citu.block.ModBlocks;
 import net.mcmillanfamily.citu.item.ModItemGroups;
 import net.mcmillanfamily.citu.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class CreateIntoTheUnknown implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
