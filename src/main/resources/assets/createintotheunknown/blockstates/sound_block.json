@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createintotheunknown:block/sound_block"
+    }
+  }
+}

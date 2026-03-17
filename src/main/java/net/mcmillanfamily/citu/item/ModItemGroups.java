@@ -19,9 +19,13 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
 
+                        //functional Items
+                        entries.add(ModItems.METAL_DETECTOR);
+
                         //Blocks
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                         //Ores
                         entries.add(ModBlocks.RUBY_ORE);
