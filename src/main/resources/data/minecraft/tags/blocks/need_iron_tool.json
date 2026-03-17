@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "createintotheunknown:raw_ruby_block"
+    "createintotheunknown:raw_ruby_block",
+    "createintotheunknown:deepslate_ruby_ore",
+    "createintotheunknown:ruby_ore",
+    "createintotheunknown:nether_ruby_ore",
+    "createintotheunknown:end_stone_ruby_ore"
   ]
 }
