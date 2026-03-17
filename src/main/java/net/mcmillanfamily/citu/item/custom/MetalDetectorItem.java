@@ -23,9 +23,13 @@ public class MetalDetectorItem extends Item {
             PlayerEntity player = context.getPlayer();;
             boolean foundBlock = false;
 
+
+            // Gets if the player has clicked on a block or not
+
             for(int i = 0; i <= positionClicked.getY() + 64; i++){
                 BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
+                // Checks if blocks 64 blocks under the plater have diamond or iron ore
                 if (isValuableBlock(state)) {
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
@@ -53,6 +57,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state){
+        //defines valuable blocks
         return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
     }
 }
